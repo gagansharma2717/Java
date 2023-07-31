@@ -1,0 +1,38 @@
+import java.util.Collections;
+import java.util.Map;
+import java.util.HashMap;
+
+
+public class HashMap {
+    public static void main(String[] args) {
+
+        Map<String, String> map1 = new HashMap<String, String>();
+        map1.put("1","Rahul");
+        map1.put("2","Gagan");
+        map1.put("3","Akash");
+        System.out.println(map1);
+        
+        // It will throw concurrentmodificationException while performing mutiple operations at the same time
+        Map<String, String> syncMap = Collections.synchronizedMap(map1);
+        System.out.println(syncMap);
+
+        ConcurrentHashMap<String,String> concurrentHashMap = new ConcurrentHashMap<String, String>();
+        concurrentHashMap.put("1","John");
+        System.out.println(concurrentHashMap.get("1"));
+    }
+}
+
+/*
+    HashMap is not thread-safe and allows one null key and mutiple null values.
+
+    Hashtable is a legacy one. It was introduced in jdk 1.2. It is thread safe as if one thread is performing some
+    operation on it . It will acquire a lock so that another thread cannot act on it. But due to this mechanism it slows down the performace but it is thread safe.
+
+    We can make the hashmap syncronized by using Collections.synchronizedMap(hashmap_name). SyncronizedMap map is a thread safe. It work the same way as hashtable but only difference is It allows null key and multiple null values but it slows down the performance due to locking mechanism allows only one thread at a time.
+
+    In ConcurrentHashMap object is divided into segments according to concurrency level and the default concurrency level is 16.
+    Multiple retrieval operations can be performed at a time but for updation in the object, the thread must lock the particular segment during updating that segment. This is callled segment locking or bucket locking. It means 16 updation operations can be performed by threads at a time.
+    Lock is applied only when updating the segment not while reading the segment
+    Inserting null objects are not allowed in concurrenthashmap as key or value.
+
+    */
