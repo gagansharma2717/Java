@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface Bike {
+public interface Bike {
+    void turnOnEngine();
+    void accelerate();
 }

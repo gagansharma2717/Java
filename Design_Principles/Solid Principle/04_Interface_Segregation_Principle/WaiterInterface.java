@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface WaiterInterface {
+public interface WaiterInterface {
+    void serveCustomers();
+    void takeOrder();
 }

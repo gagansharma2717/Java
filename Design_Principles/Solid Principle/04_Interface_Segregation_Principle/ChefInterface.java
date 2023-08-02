@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface ChefInterface {
+public interface ChefInterface {
+    void cookFood();
+    void decideMenu();
 }

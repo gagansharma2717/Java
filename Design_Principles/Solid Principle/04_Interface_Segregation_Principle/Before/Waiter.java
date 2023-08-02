@@ -1,4 +1,5 @@
-public class Waiter implements ResturantEmployee{
+package Before;
+public class Waiter implements ResturantEmployee {
     @Override
     public void washDishes() {
         // Not my job
@@ -14,3 +15,5 @@ public class Waiter implements ResturantEmployee{
         // Not my job
     }
 }
+
+// Clients are implementing unnecessary methods that they do not need.

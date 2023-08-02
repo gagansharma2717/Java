@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/01_Singleton_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02_Strategy_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Observer_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_Decorator_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_Factory_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_AbstractFactory_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_ChainOfResponsibility_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_Proxy_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_Adapter_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Builder_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_Facade_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12_Bridge_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_FlyWeight_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_Composite_Pattern" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

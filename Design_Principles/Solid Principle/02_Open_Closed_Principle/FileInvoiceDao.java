@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class FileInvoiceDao {
+public class FileInvoiceDao implements Invoice_Dao{
+    @Override
+    public void save() {
+        // Save to File
+    }
 }
