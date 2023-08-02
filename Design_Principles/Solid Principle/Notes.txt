@@ -1,0 +1,16 @@
+Advantages of these principles :-
+- Avoid Duplicate Code
+- Easy to Maintain
+- Easy to understand
+- Flexible Software
+- Reduce Complexity
+
+SOLID Principles :-
+1. Single Responsibility Principle -  A class should have only one reason to change.
+2. Open-Closed Principle - A class should be open for extension but closed for modification.
+3. Liskov-Substitution Principle - If Class B is Child or Subclass of Class A then object of class B should be easily replaceable with the object
+   of class A without changing the behaviour of the program.
+   Subclass should extend the capability of parent class not narrow it down.
+4. Interface Segregation Principle - Interfaces should be such that Client should not implement the functions or methods that they do not need.
+5. Dependency Inversion Principle - Classes should be dependent on Interfaces rather than Concrete Classes.
+   High Level modules should not be dependent on Low Level Modules. Both should be dependent on abstraction
